@@ -24,5 +24,11 @@ namespace WPF3DTest
         {
             InitializeComponent();
         }
+
+        private void CubeClick(object sender, RoutedEventArgs e)
+        {
+            var win = new Cube();
+            win.Show();
+        }
     }
 }

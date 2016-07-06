@@ -7,7 +7,32 @@
         mc:Ignorable="d"
         xmlns:tools="clr-namespace:_3DTools;assembly=3DTools"
         Title="MainWindow" Height="737.038" Width="770.346">
-    <Grid>
+    <Window.Resources>
+        <MeshGeometry3D x:Key="SharedPoints"  Positions="0,0,0 10,0,0 0,10,0 10,10,0
+                                           0,0,10 10,0,10 0,10,10 10,10,10"
+                       TriangleIndices="0,2,1 1,2,3 0,4,2 2,4,6 
+                                                 0,1,4 1,5,4 1,7,5 1,3,7 
+                                                 4,5,6 7,6,5 2,6,3 3,6,7"
+                        />
+        <MeshGeometry3D x:Key="Blended"  Positions="-1 -1 0  1 -1 1  -1 1 0 1 1 0"
+                        TriangleIndices="0 1 2  1 3 2"
+                         Normals="0 0 1  0 0 1  0 1 1  0 0 1" />
+        <MeshGeometry3D x:Key="Faceted"
+                 Positions="0,0,0 10,0,0 0,10,0 10,10,0
+                             0,0,0 0,0,10 0,10,0 0,10,10
+                             0,0,0 10,0,0 0,0,10 10,0,10
+                             10,0,0 10,10,10 10,0,10 10,10,0
+                             0,0,10 10,0,10 0,10,10 10,10,10
+                             0,10,0 0,10,10 10,10,0 10,10,10"
+                 TriangleIndices="0,2,1 1,2,3
+                                   4,5,6 6,5,7                                   
+                                   8,9,10 9,11,10                                   
+                                   12,13,14 12,15,13
+                                   16,17,18 19,18,17
+                                   20,21,22 22,21,23" />
+    </Window.Resources>
+    <Grid Margin="0,0,-8,-3">
+
         <Border BorderBrush="Yellow" BorderThickness="1" Margin="0,10,418,10">
             <Viewport3D Margin="-9,-1,21,-1">
                 <Viewport3D.Camera>
@@ -101,7 +126,27 @@
 
                 </ModelVisual3D.Content>
             </ModelVisual3D>
-
+            
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <GeometryModel3D Geometry="{StaticResource Blended}">
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial>
+                                <DiffuseMaterial.Brush>
+                                    <SolidColorBrush Color="Blue" Opacity="1.0" />
+                                </DiffuseMaterial.Brush>
+                            </DiffuseMaterial>
+                        </GeometryModel3D.Material>
+                        <GeometryModel3D.Transform>
+                            <RotateTransform3D>
+                                <RotateTransform3D.Rotation>
+                                    <AxisAngleRotation3D x:Name="myAngleRotation" Axis="0,3,0" Angle="1" />
+                                </RotateTransform3D.Rotation>
+                            </RotateTransform3D>
+                        </GeometryModel3D.Transform>
+                    </GeometryModel3D>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
             <tools:ScreenSpaceLines3D Points="0,-10,0 0,10,0"
           Thickness="1" Color="Blue">
             </tools:ScreenSpaceLines3D>
@@ -115,7 +160,8 @@
         </Viewport3D>
 
 
-
-
+        <Button Content="Cube" Margin="10,606.038,684.346,58" RenderTransformOrigin="-0.286,0.375" Click="CubeClick"/>
+        <ScrollBar  Minimum="0" Maximum="360" Orientation="Horizontal"
+              Value="{Binding ElementName=myAngleRotation, Path=Angle}" Margin="0,657.038,0,31" Height="Auto" />
     </Grid>
 </Window>  
