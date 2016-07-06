@@ -1,0 +1,34 @@
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\Sample Models\Tiger.xaml
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\Sample Models\Tiger.bmp
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\ModelViewer.exe
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\ModelViewer.pdb
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\3DTools.dll
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\3DTools.pdb
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.csprojResolveAssemblyReference.cache
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\MainWindow.baml
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\MainWindow.g.cs
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\MyApp.g.cs
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer_Content.g.cs
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer_MarkupCompile.cache
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.g.resources
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.Properties.Resources.resources
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.csproj.GenerateResource.Cache
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.exe
+E:\study\code\3d\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.pdb
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.exe
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.pdb
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\Sample Models\Tiger.xaml
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\Sample Models\Tiger.bmp
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\ModelViewer.exe
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\ModelViewer.pdb
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\3DTools.dll
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\bin\Debug\3DTools.pdb
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\MyApp.g.cs
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer_Content.g.cs
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer_MarkupCompile.cache
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.g.resources
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\WPF-Samples\3DTools\Samples\ModelViewer\obj\Debug\ModelViewer.csproj.GenerateResource.Cache
