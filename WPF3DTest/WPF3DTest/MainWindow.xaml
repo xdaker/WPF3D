@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:WPF3DTest"
         mc:Ignorable="d"
         xmlns:tools="clr-namespace:_3DTools;assembly=3DTools"
-        Title="MainWindow" Height="459.038" Width="701.346">
+        Title="MainWindow" Height="737.038" Width="770.346">
     <Grid>
-        <Border BorderBrush="Yellow" BorderThickness="1" Margin="0,10,0,-10">
-            <Viewport3D Margin="-9,-1,9,-63">
+        <Border BorderBrush="Yellow" BorderThickness="1" Margin="0,10,418,10">
+            <Viewport3D Margin="-9,-1,21,-1">
                 <Viewport3D.Camera>
                     <PerspectiveCamera
           Position="-2,2,2"
@@ -56,5 +56,66 @@
                 </tools:ScreenSpaceLines3D>
             </Viewport3D>
         </Border>
+        <Viewport3D HorizontalAlignment="Left" Height="653" Margin="349.346,54.038,0,0" VerticalAlignment="Top" Width="378.346" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" >
+            <Viewport3D.Camera>
+                <PerspectiveCamera
+          Position="-2,2,2"
+          LookDirection="2,-2,-2"
+          UpDirection="0,1,0"
+           />
+            </Viewport3D.Camera>
+
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <DirectionalLight
+             Color="White"
+             Direction="-1,-1,-1" />
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+
+                    <GeometryModel3D>
+                        <GeometryModel3D.Geometry>
+                            <MeshGeometry3D 
+              Positions="-1 -1 0  1 -1 1  -1 1 0 1 1 0"
+              Normals="0 0 1  0 0 1  0 1 1  0 0 1"
+              TextureCoordinates="1 1  1 1  0 0  1 0   "
+              TriangleIndices="0 1 2  1 3 2" />
+                        </GeometryModel3D.Geometry>
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial>
+                                <DiffuseMaterial.Brush>
+                                    <SolidColorBrush Color="#CC02FFFF" Opacity="0.3"/>
+                                </DiffuseMaterial.Brush>
+                            </DiffuseMaterial>
+                        </GeometryModel3D.Material>
+                        <!-- Translate the plane. -->
+                        <GeometryModel3D.Transform>
+                            <TranslateTransform3D
+            OffsetX="2" OffsetY="0" OffsetZ="-1"   >
+                            </TranslateTransform3D>
+                        </GeometryModel3D.Transform>
+                    </GeometryModel3D>
+
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+
+            <tools:ScreenSpaceLines3D Points="0,-10,0 0,10,0"
+          Thickness="1" Color="Blue">
+            </tools:ScreenSpaceLines3D>
+            <tools:ScreenSpaceLines3D Points="-10,0,0 10,0,0"
+          Thickness="1" Color="Red">
+            </tools:ScreenSpaceLines3D>
+            <tools:ScreenSpaceLines3D Points="0,0,-10 0,0,10"
+          Thickness="1" Color="Green">
+            </tools:ScreenSpaceLines3D>
+
+        </Viewport3D>
+
+
+
+
     </Grid>
-</Window>
+</Window>  
