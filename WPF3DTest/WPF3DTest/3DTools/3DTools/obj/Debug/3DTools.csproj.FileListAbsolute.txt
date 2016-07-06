@@ -20,3 +20,13 @@ C:\Users\Administrator\Desktop\WPF-Samples\3DTools\3DTools\obj\Debug\_3DTools.Pr
 C:\Users\Administrator\Desktop\WPF-Samples\3DTools\3DTools\obj\Debug\3DTools.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\WPF-Samples\3DTools\3DTools\obj\Debug\3DTools.dll
 C:\Users\Administrator\Desktop\WPF-Samples\3DTools\3DTools\obj\Debug\3DTools.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\bin\Debug\3DTools.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\bin\Debug\3DTools.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\Trackport3D.baml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\Trackport3D.g.cs
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools_MarkupCompile.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools.g.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\_3DTools.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools.pdb

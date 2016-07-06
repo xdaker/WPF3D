@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:WPF3DTest"
         mc:Ignorable="d"
         xmlns:tools="clr-namespace:_3DTools;assembly=3DTools"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="459.038" Width="701.346">
     <Grid>
-        <Border BorderBrush="Yellow" BorderThickness="1">
-            <Viewport3D>
+        <Border BorderBrush="Yellow" BorderThickness="1" Margin="0,10,0,-10">
+            <Viewport3D Margin="-9,-1,9,-63">
                 <Viewport3D.Camera>
                     <PerspectiveCamera
           Position="-2,2,2"
