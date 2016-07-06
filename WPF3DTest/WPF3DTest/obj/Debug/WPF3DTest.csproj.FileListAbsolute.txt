@@ -1,0 +1,2 @@
+c:\users\administrator\documents\visual studio 2015\Projects\WPF3DTest\WPF3DTest\bin\Debug\WPF3DTest.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\bin\Debug\WPF3DTest.exe.config
