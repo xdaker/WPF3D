@@ -18,3 +18,5 @@ C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\obj\Debug\Cube.g.cs
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\obj\Debug\Cube.baml
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\obj\Debug\WPF3DTest_Content.g.cs
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\obj\Debug\MeshGeometry3D.g.cs
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\obj\Debug\MeshGeometry3D.baml

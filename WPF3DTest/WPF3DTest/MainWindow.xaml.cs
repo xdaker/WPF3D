@@ -30,5 +30,11 @@ namespace WPF3DTest
             var win = new Cube();
             win.Show();
         }
+
+        private void MeshGeometry3D_click(object sender, RoutedEventArgs e)
+        {
+            var win = new MeshGeometry3D();
+            win.Show();
+        }
     }
 }
