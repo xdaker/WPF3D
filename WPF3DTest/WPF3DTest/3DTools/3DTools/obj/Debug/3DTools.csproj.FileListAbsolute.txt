@@ -30,3 +30,4 @@ C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools.dll
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\WPF3D\WPF3DTest\WPF3DTest\3DTools\3DTools\obj\Debug\3DTools.csprojResolveAssemblyReference.cache
