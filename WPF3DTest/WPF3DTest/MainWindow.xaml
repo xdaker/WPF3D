@@ -34,7 +34,7 @@
     <Grid Margin="0,0,-8,-3">
 
         <Border BorderBrush="Yellow" BorderThickness="1" Margin="0,10,418,10">
-            <Button Content="MeshGeometry3D" HorizontalAlignment="Left" Height="41.624" Margin="117.057,595.038,0,0" VerticalAlignment="Top" Width="91.543" Click="MeshGeometry3D_click"/>
+
         </Border>
         <Viewport3D HorizontalAlignment="Left" Height="653" Margin="349.346,54.038,0,0" VerticalAlignment="Top" Width="378.346" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" >
             <Viewport3D.Camera>
@@ -50,6 +50,14 @@
                     <DirectionalLight
              Color="White"
              Direction="-1,-1,-1" />
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <DirectionalLight
+             Color="White"
+             Direction="1,1,1" />
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
@@ -77,18 +85,24 @@
             OffsetX="2" OffsetY="0" OffsetZ="-1"   >
                             </TranslateTransform3D>
                         </GeometryModel3D.Transform>
+
                     </GeometryModel3D>
 
                 </ModelVisual3D.Content>
             </ModelVisual3D>
-            
+
+
+
+
+
+
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D Geometry="{StaticResource Blended}">
                         <GeometryModel3D.Material>
                             <DiffuseMaterial>
                                 <DiffuseMaterial.Brush>
-                                    <SolidColorBrush Color="Blue" Opacity="1.0" />
+                                    <SolidColorBrush Color="#CC0000FF" Opacity="1.0" />
                                 </DiffuseMaterial.Brush>
                             </DiffuseMaterial>
                         </GeometryModel3D.Material>
@@ -99,9 +113,15 @@
                                 </RotateTransform3D.Rotation>
                             </RotateTransform3D>
                         </GeometryModel3D.Transform>
+                        <GeometryModel3D.BackMaterial>
+                            <DiffuseMaterial Brush="#CC0000FF"/>
+                        </GeometryModel3D.BackMaterial>
                     </GeometryModel3D>
                 </ModelVisual3D.Content>
             </ModelVisual3D>
+
+
+
             <tools:ScreenSpaceLines3D Points="0,-10,0 0,10,0"
           Thickness="1" Color="Blue">
             </tools:ScreenSpaceLines3D>
@@ -114,7 +134,7 @@
 
         </Viewport3D>
 
-
+        <Button Content="MeshGeometry3D" HorizontalAlignment="Left" Height="41.624" Margin="114.057,606.038,0,0" VerticalAlignment="Top" Width="91.543" Click="MeshGeometry3D_click"/>
         <Button Content="Cube" Margin="10,606.038,684.346,58" RenderTransformOrigin="-0.286,0.375" Click="CubeClick"/>
         <ScrollBar  Minimum="0" Maximum="360" Orientation="Horizontal"
               Value="{Binding ElementName=myAngleRotation, Path=Angle}" Margin="0,657.038,0,31" Height="Auto" />
